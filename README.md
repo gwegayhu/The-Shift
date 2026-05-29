@@ -22,6 +22,7 @@ modern-engineer-stack/
 │   ├── db_vector.py       # 3. Semantic similarity embeddings
 │   ├── service_ml.py      # 4. Classic Machine Learning (Fraud Classifier)
 │   └── service_rag.py     # 5. RAG Engine combining SQL + Vector context
+├── app.py                 # Application file
 ├── main.py                # Asynchronous API Engine (FastAPI application gateway)
 ├── Dockerfile             # Multi-stage container wrapper
 ├── requirements.txt       # Unified Python dependencies
@@ -41,6 +42,8 @@ uvicorn==0.30.1
 tinydb==4.8.0
 chromadb==0.5.0
 scikit-learn==1.5.0
+streamlit==1.35.0
+requests==2.32.3
 
 ```
 
